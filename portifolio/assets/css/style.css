@@ -5,6 +5,8 @@
     padding: 0;
 }
 
+/* Cores do portifólio*/
+
 :root{
     --white: #fff;
     --dark1:  #34344e;
@@ -22,6 +24,8 @@ body{
     height: 100vh;
     font-family: 'Lato';
 }
+
+/* Style Menu*/
 
 header{
     display: flex;
@@ -95,6 +99,9 @@ nav{
     width: 200px;
     text-align: center;
 }
+
+/* Style do 1º Section*/
+
 main{
     display: flex;
     flex-direction: column;
@@ -157,6 +164,8 @@ strong{
     border-radius: 80%;
 }
 
+/* Style do 2º Section*/
+
 
 :is(.second-section, .fourth-section){
     background-color: var(--black);
@@ -194,6 +203,8 @@ strong{
     color: var(--dark5);
 }
 
+/* Style do 3º Section*/
+
 .third-section{
     display: flex;
     flex-direction: column;
@@ -221,6 +232,8 @@ strong{
     text-align: justify;
     line-height: 20px;
 }
+
+/* Rodapé */
 
 footer{
     padding: 4rem;
