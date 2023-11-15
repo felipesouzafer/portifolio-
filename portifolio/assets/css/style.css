@@ -109,14 +109,6 @@ main{
 
 }
 
-#imagem{
-    background-image: url(assets/images/img.jpg);
-    height: 150px;
-    background-position: center left;
-    padding: 0;
-    margin: 0;
-    
-}
 
 section{
     padding: .2rem;
@@ -164,6 +156,19 @@ strong{
     border-radius: 80%;
 }
 
+/* Nav */
+
+.right{
+   
+    width: 94.55%;
+    padding: 40px;
+    background-color: var(--black);
+}
+
+svg{
+    margin: 0 20px;
+}
+
 /* Icons Experiências */
 
 .icons{
@@ -174,7 +179,7 @@ strong{
 
 
 :is(.second-section, .fourth-section){
-    background-color: var(--black);
+    background-color: #759173;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -194,7 +199,7 @@ strong{
 }
 
 .second-section ul li{
-    color: var(--dark4);
+    color: var(--white);
     letter-spacing: 2px;
     font-weight: bold;
 }
@@ -206,7 +211,7 @@ strong{
 }
 
 .title{
-    color: #A9C5A0;
+    color: var(--black);
 }
 
 /* Style do 3º Section*/
@@ -246,7 +251,7 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background-color: #759173;
+    background-color: #A9C5A0;
 }
 
 footer > div{
