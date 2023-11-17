@@ -156,13 +156,25 @@ strong{
     border-radius: 80%;
 }
 
-/* Nav */
+/* Navs */
+
+
 
 .right{
    
     width: 94.55%;
     padding: 40px;
-    background-color: var(--black);
+    background-image: linear-gradient(to left, #C5EFCB, #758173, #A9C5A0, #C6DEC6);
+     animation: degrade-animado 5s infinite alternate;
+}
+
+@keyframes degrade-animado {
+      0%{
+        background-position-x: 0%;
+      }
+      100%{
+        background-position-x: 100%;
+      }
 }
 
 svg{
@@ -179,7 +191,7 @@ svg{
 
 
 :is(.second-section, .fourth-section){
-    background-color: #759173;
+    background-color: var(--black);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -211,7 +223,7 @@ svg{
 }
 
 .title{
-    color: var(--black);
+    color: var(--dark4);
 }
 
 /* Style do 3º Section*/
